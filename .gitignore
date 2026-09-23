@@ -1,0 +1,18 @@
+# Local dependency tree fetched by tools/fetch_cuda_torch.py and
+# tools/fetch_pypi_wheels.py (pip is unusable in this sandbox). ~6.7 GB.
+.pylibs/
+.tmp/
+.venv/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Checkpoints / profiles produced locally
+*.pt
+*.prof
+generate_trace.json
+
+# Univer round-trip verification scratch
+.dsh-tmp/
+*.univer
